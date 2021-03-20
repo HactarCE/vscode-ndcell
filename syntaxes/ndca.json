@@ -1,0 +1,85 @@
+{
+   "fileTypes": [
+      "ndca"
+   ],
+   "foldingStartMarker": "\\{\\s*$",
+   "foldingStopMarker": "^\\s*\\}",
+   "name": "NDCA",
+   "patterns": [
+      {
+         "name": "comment.line.double-slash.ndca",
+         "begin": "//",
+         "end": "\n"
+      },
+      {
+         "name": "comment.block.ndca",
+         "begin": "/\\*",
+         "end": "\\*/"
+      },
+      {
+         "name": "keyword.operator.ndca",
+         "match": "[\\(\\[\\{\\)\\]\\}`:,\\.;<>+\\-*/%&|^~#=]|(\\*\\*|<<|>>>?)=|[+\\-*/%&|^]=|->|\\.\\.|\\*\\*|<<|>>>?|[=!<>]=|\\b(or|xor|and|not|is|in)\\b"
+      },
+      {
+         "name": "entity.name.type.ndca",
+         "match": "\\b(Integer|Vector|Cell|Array|IntegerSet|VectorSet|CellSet|Pattern|String|Type|Tag)\\b"
+      },
+      {
+         "name": "keyword.other.directive.ndca",
+         "match": "@[A-Za-z_][A-Za-z_\\d]*"
+      },
+      {
+         "name": "keyword.control.ndca",
+         "match": "\\b(break|continue|for|become|remain|return|if|else|unless|case|match|assert|error)\\b"
+      },
+      {
+         "name": "keyword.control.ndca",
+         "match": "\\bscan\\b"
+      },
+      {
+         "name": "string.quoted.double.ndca",
+         "begin": "\"",
+         "end": "\"",
+         "patterns": [
+            {
+               "name": "constant.character.escape.ndca",
+               "match": "\\."
+            }
+         ]
+      },
+      {
+         "name": "string.quoted.single.ndca",
+         "begin": "'",
+         "end": "'",
+         "patterns": [
+            {
+               "name": "constant.character.escape.ndca",
+               "match": "\\."
+            }
+         ]
+      },
+      {
+         "name": "string.regexp.quoted.double.ndca",
+         "begin": "r\"",
+         "end": "\"",
+         "patterns": [
+            {
+               "name": "constant.character.escape.ndca",
+               "match": "\\."
+            }
+         ]
+      },
+      {
+         "name": "string.regexp.quoted.single.ndca",
+         "begin": "r'",
+         "end": "'",
+         "patterns": [
+            {
+               "name": "constant.character.escape.ndca",
+               "match": "\\."
+            }
+         ]
+      }
+   ],
+   "scopeName": "source.ndca"
+}

@@ -1,0 +1,47 @@
+{
+    "name": "ndca",
+    "version": "0.0.1",
+    "publisher": "HactarCE",
+    "engines": {
+        "vscode": ">=1.0.0"
+    },
+    "license": "WTFPL",
+    "displayName": "NDCell Language Support",
+    "description": "Syntax highlighting for NDCA scripting language",
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "ndcell",
+        "ndca",
+        "ca",
+        "cellular-automaton",
+        "cellular-automata"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ndca",
+                "aliases": [
+                    "NDCA",
+                    "ndca"
+                ],
+                "extensions": [
+                    ".ndca"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ndca",
+                "scopeName": "source.ndca",
+                "path": "./syntaxes/ndca.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HactarCE/vscode-ndcell.git"
+    },
+    "icon": "images/icon.png"
+}
