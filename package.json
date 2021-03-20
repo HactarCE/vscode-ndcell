@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "publisher": "HactarCE",
     "engines": {
-        "vscode": ">=1.0.0"
+        "vscode": "^1.28.0"
     },
     "license": "WTFPL",
     "displayName": "NDCell Language Support",
@@ -28,7 +28,8 @@
                 ],
                 "extensions": [
                     ".ndca"
-                ]
+                ],
+                "configuration": "./ndca-configuration.json"
             }
         ],
         "grammars": [
@@ -37,7 +38,12 @@
                 "scopeName": "source.ndca",
                 "path": "./syntaxes/ndca.json"
             }
-        ]
+        ],
+        "configurationDefaults": {
+            "[ndca]": {
+                "editor.tabSize": 2
+            }
+        }
     },
     "repository": {
         "type": "git",
