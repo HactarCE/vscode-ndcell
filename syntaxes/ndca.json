@@ -22,7 +22,7 @@
       },
       {
          "name": "entity.name.type.ndca",
-         "match": "\\b(Integer|Vector|Cell|Array|IntegerSet|VectorSet|CellSet|Pattern|String|Type|Tag)\\b"
+         "match": "\\b(Integer|Cell|Tag|String|Type|Null|Vector|Array|IntegerSet|CellSet|VectorSet|Pattern|Regex)\\b"
       },
       {
          "name": "keyword.other.directive.ndca",
@@ -31,10 +31,6 @@
       {
          "name": "keyword.control.ndca",
          "match": "\\b(break|continue|for|become|remain|return|if|else|unless|case|match|assert|error)\\b"
-      },
-      {
-         "name": "keyword.control.ndca",
-         "match": "\\bscan\\b"
       },
       {
          "name": "string.quoted.double.ndca",
