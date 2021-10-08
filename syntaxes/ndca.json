@@ -54,7 +54,7 @@
       },
       {
          "name": "entity.name.type.ndca",
-         "match": "\\b(Integer|Cell|Tag|String|Type|Null|Vector|Array|IntegerSet|CellSet|VectorSet|Pattern|Regex)\\b"
+         "match": "\\b(Null|Integer|Cell|Tag|String|Type|Vector|CellArray|EmptySet|IntegerSet|CellSet|VectorSet|PatternMatcher|Regex)\\b"
       },
       {
          "name": "keyword.other.directive.ndca",
