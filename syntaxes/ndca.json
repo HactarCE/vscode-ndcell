@@ -17,8 +17,40 @@
          "end": "\\*/"
       },
       {
+         "name": "punctuation.parentheses.begin.ndca",
+         "match": "\\("
+      },
+      {
+         "name": "punctuation.parentheses.end.ndca",
+         "match": "\\)"
+      },
+      {
+         "name": "keyword.separator.period.ndca",
+         "match": "\\)"
+      },
+      {
          "name": "keyword.operator.ndca",
-         "match": "[\\(\\[\\{\\)\\]\\}`:,\\.;<>+\\-*/%&|^~#=]|(\\*\\*|<<|>>>?)=|[+\\-*/%&|^]=|->|\\.\\.|\\*\\*|<<|>>>?|[=!<>]=|\\b(or|xor|and|not|is|in)\\b"
+         "match": "[\\[\\{\\]\\}`:,\\.;#]|->|\\.\\."
+      },
+      {
+         "name": "keyword.operator.assignment.ndca",
+         "match": "([+\\-*/%&|^]|\\*\\*|<<|>>>)?="
+      },
+      {
+         "name": "keyword.operator.bitwise.ndca",
+         "match": "[&|^~]|<<|>>>"
+      },
+      {
+         "name": "keyword.operator.comparison.ndca",
+         "match": "<|>|[=!<>]="
+      },
+      {
+         "name": "keyword.operator.logical.ndca",
+         "match": "\\b(or|xor|and|not|is|in)\\b"
+      },
+      {
+         "name": "keyword.operator.math.ndca",
+         "match": "[+\\-*/%]|\\*\\*"
       },
       {
          "name": "entity.name.type.ndca",
