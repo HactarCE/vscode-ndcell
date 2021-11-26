@@ -62,7 +62,7 @@
       },
       {
          "name": "keyword.control.ndca",
-         "match": "\\b(break|continue|for|become|remain|return|if|else|unless|case|match|assert|error)\\b"
+         "match": "\\b(break|continue|for|while|become|remain|return|if|else|unless|case|default|match|assert|error)\\b"
       },
       {
          "name": "string.quoted.double.ndca",
