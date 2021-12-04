@@ -90,7 +90,7 @@
       },
       {
          "name": "variable.language.ndca",
-         "match": "nbhd|this"
+         "match": "neighborhood|nbhd|this"
       },
       {
          "name": "string.quoted.double.ndca",
